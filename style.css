@@ -1,0 +1,696 @@
+body{
+    width: 1440px;
+    margin: 0%;
+    align-items: center;
+    display: flexbox;
+}
+:root{
+    --cb-red: #2736dd;
+    --white:#ffffff;
+    --cb-dark-gray: #272f33;
+    --black: #000000;
+}
+
+/* Top blue box */
+.Blue-Rectangle{
+    padding-top: 5px;
+    position: relative;
+    height: 22px;
+    background-color: var(--cb-red);
+    text-align: center;
+}
+
+.Come-Join-Us{
+    height: 14px;
+    font-family: Chivo;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.71px;
+    text-align: center;
+    color: var(--white);
+}
+
+.iconnavX-white{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    bottom: 3px;
+}
+
+/* nav box */
+
+nav{
+    position: relative;
+    padding: 0px 0px 0px 89px;
+    height: 95px;
+}
+
+.fill-img{
+    height: 84px;
+    width: 86px;
+    padding-top: 6px;
+}
+.Hike {
+    position: relative;
+    width: 41px;
+    height: 15px;
+    margin: 35px 60px 10px 97px;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.32px;
+    text-align: center;
+    color: var(--cb-dark-gray);
+    bottom: 39px;
+}
+.Trips {
+    position: relative;
+    width: 51px;
+    height: 15px;
+    margin: 35px 58px 10px 0px;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: var(--cb-dark-gray);
+    bottom: 39px;
+}
+.Extra {
+    position: relative;
+    width: 53px;
+    height: 15px;
+    margin: 35px 678px 10px 0px;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.32px;
+    text-align: center;
+    color: var(--cb-dark-gray);
+    bottom: 39px;
+}
+.Account-img,.Search-img,.Cart-img{
+    position: absolute;
+    right: 74.5px;
+    top: 38px;
+}
+.Account-img{
+    right: 154.5px;
+}
+.Search-img{
+    right: 224.5px;
+}
+
+/* features sections */
+
+.Mask {
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    bottom: 4px;
+    opacity: 0.8;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--black));
+}
+
+.section-2{
+    height: 500px;
+}
+
+.left-part,.right-part,.right-top-item1,.right-top-item2{
+    position: relative;
+    display: inline-block;
+}
+
+.left-part .img-desc{
+    position: absolute;
+    z-index: 1;
+    left: 79px;
+    bottom: 30px;
+}
+.save-upto-50 {
+  width: 143px;
+  height: 15px;
+  margin: 0 417px 0 0;
+  font-family: Chivo;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  color: var(--white);
+}
+.Summer-Sale {
+    width: 560px;
+    height: 60px;
+    margin: 0px;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: var(--white);
+}
+.view-product{
+    width: 264px;
+    height: 43px;
+}
+.right-top-item1,.right-top-item2,.right-part-bottom{
+    position: relative;
+}
+
+.right-part .img-desc{
+    position: absolute;
+    z-index: 1;
+}
+.right-part .img-desc h3{
+    margin: 0px;
+}
+
+.right-top-item1 .img-desc,.right-top-item2 .img-desc,.right-part-bottom .img-desc{
+    left: 25px;
+    top: 175px;
+}
+
+.right-top-item2 .img-desc{
+    top: 150px;
+}
+
+.ready-for-the-desert{
+    width: 199px;
+    height: 15px;
+    margin: 0 101px 0 0;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    color: var(--white);
+}
+
+.for-your-ATV{
+    width: 300px;
+    height: 30px;
+    margin: 15px 0 0;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: var(--white);
+}
+
+.How-Tos {
+    width: 82px;
+    height: 15px;
+    margin: 0 202px 0 0;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    color: var(--white);
+}
+.Installation-Tutorials {
+    width: 284px;
+    height: 60px;
+    margin: 15px 0 0;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: var(--white);
+}
+.Build-your-own {
+    width: 146px;
+    height: 15px;
+    margin: 0 284px 0 0;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    color: var(--white);
+}
+.Chain-Sprocket-Kit {
+    width: 430px;
+    height: 30px;
+    margin: 15px 0 0;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: var(--white);
+}
+
+/* section 3 */
+
+.section-3{
+    position: relative;
+    display: flex;
+    height: 482px;
+    margin: 0px;
+    align-items: center;
+}
+
+.hiking-trails{
+    width: 129px;
+    height: 15px;
+    margin: 0 378px 5px 73px;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: var(--cb-red);
+
+}
+.features-desc{
+    position: relative;
+    right: 150px;
+}
+.feature-desc-title{
+    height: 60px;
+    width: 500px;
+    margin: 5px 0 15px 80px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.15;
+    letter-spacing: normal;
+    color: var(--cb-red);
+}
+
+.s3-right-part,.s3-left-part{
+    display: inline-block;
+}
+
+.s3-right-part{
+    padding: 0px;
+    position: absolute;
+    left: 1130px;
+}
+.stars{
+    width: 96px;
+    height: 17px;
+    margin: 15px 20px 18px 80px;
+    object-fit: contain;
+}
+.price1{
+    width: 59px;
+    height: 15px;
+    margin: 0 10px 0 0;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: var(--cb-red);
+}
+.price2{
+    width: 59px;
+    height: 15px;
+    margin: 0 0 0 10px;
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    color: var(--cb-dark-gray);
+}
+.more-desc{
+    width: 450px;
+    height: 80px;
+    margin: 18px 0 29px 80px;
+    font-family: Chivo;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: var(--cb-dark-gray);
+}
+.hiking{
+    position: relative;
+    right: 150px;
+    padding-left: 30px;
+}
+.features-image{
+    width: 228px;
+    height: 43px;
+    margin: 29px 0px 18px 80px;
+    object-fit: contain;
+}
+.hiking-trails-to-go{
+    position: relative;
+    right: 50px;
+    height: 30px;
+    margin-top: 0px;
+    font-family: Roboto;
+    transform: rotate(-90deg);
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: var(--cb-red);
+}
+.group-img{
+    position: absolute;
+    bottom: -20px;
+    right: -30px;
+}
+
+/* section - 4 */
+.section-4{
+    position: relative;
+    padding: 0px 5px 0px;
+}
+.section-4 span{
+    position: relative;
+    display: inline-block;
+}
+
+.section-4 span .img-desc{
+    position: absolute;
+    z-index: 1;
+    top: 229px;
+    left: 30px;
+}
+
+.section-4 span .img-desc p{
+    width: 42px;
+    height: 15px;
+    margin: 0 78px 0 0;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    color: var(--white);
+}
+.section-4 span .img-desc h3{
+    width: 119px;
+    height: 30px;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: var(--white);
+}
+
+/* section-5 */
+
+.section-5{
+    display: flex;
+    padding: 80px 0px 80px 80px;
+    align-items: center;
+}
+
+.section-5 h3{
+    position:absolute;
+    left: -50px;
+    transform: rotate(-90deg);
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: var(--cb-red);
+}
+
+.section-5 div{
+    margin-left:40px ;
+}
+
+.section-5 p{
+    width: 210px;
+    height: 80px;
+    margin: 10px 0px 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #8a8a8a;
+}
+
+/* .section-6 */
+
+.section-6{
+    position: relative;
+    padding: 17px 80px;
+}
+
+.section-6 .title{
+    width: 309px;
+    height: 30px;
+    margin: 6px 60px 24px 14px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: var(--cb-red);
+}
+
+.visit-us{
+    position: absolute;
+    right: 80px;
+    bottom: 17px;
+}
+
+/* section-7 */
+.section-7{
+    padding: 6px 5px;
+}
+
+/* footer */
+
+footer{
+    position: relative;
+    height: 547px;
+    width: 100%;
+}
+footer .div1{
+    position: absolute;
+    top: 0px;
+    height: 503px;
+    width: 100%;
+    border-radius: 1px;
+    background-color: rgba(52, 52, 52, 0.67);
+}
+
+.themes{
+    position: absolute;
+    top: 62px;
+    left: 242px;
+}
+.themes div{
+    display: inline-block;
+}
+.awesome-plans,.minimum-nights{
+    position: relative;
+    margin-left: 78px;
+}
+.minimum-nights{
+    margin-left: 277px;
+}
+.minimum-nights .text{
+    margin-top: 4px;
+}
+.minimum-nights img{
+    width: 70px;
+    height: 50px;  
+    margin-bottom: 12px;
+}
+.awesome-plans .text,.minimum-nights .text{
+    width: 180px;
+    height: 15px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    opacity: 0.81;
+    letter-spacing: 2.5px;
+    color: var(--white);
+}
+.hr{
+    width: 1280px;
+    height: 1px;
+    margin: 199px 0 70px 80px;
+    opacity: 0.3;
+    border: solid 1px #efefef;
+}
+footer .div2{
+    position: absolute;
+    bottom: 0%;
+    height: 44px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+footer .perks{
+    display: flex;
+}
+footer .div1-part2{
+    display: flex;
+}
+footer .div1-part2 .mail-section h3{
+    width: 390px;
+    height: 60px;
+    margin: 0px 0px 40px 80px;
+    opacity: 0.8;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: var(--white);
+}
+footer .div1-part2 .mail-section .email-address{
+    width: 88px;
+    height: 18px;
+    margin: 0 235px 10px 80px;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: var(--white);
+}
+footer .div1-part2 .mail-section .Submit{
+    width: 67px;
+    height: 15px;
+    margin: 0 0 13px 0px;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    color: var(--white);
+}
+footer .div1-part2 .perks h4{
+    width: 100px;
+    height: 15px;
+    margin: 0 0 15px 40px;
+    opacity: 0.8;
+    font-family: Chivo;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    color: var(--white);
+}
+
+footer .line{
+    width: 400px;
+    margin: 20px 0px 0px 80px;
+    border: solid 1px var(--white);
+}
+
+footer .div1-part2 .perks{
+    margin-left: 450px;
+}
+
+footer .div1-part2 .perks ul{
+    list-style: none;
+    font-family: Chivo;
+    color: var(--white);
+    opacity: 0.4;
+}
+
+footer .div2 p{
+    position: absolute;
+    left: 80px;
+    top: 15px;
+    width: 254px;
+    height: 14px;
+    margin: 2px 908px 1px 0;
+    opacity: 0.5;
+    font-family: Chivo;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white);
+}
+
+footer .div2 .social-icons{
+    position: absolute;
+    right: 80px;
+    top: 13px;
+}
+footer .div2 .social-icons span{
+    margin-left: 20px;
+}
